@@ -17,12 +17,9 @@ public class TatocMain {
   String oldColor, repaintColor;
   Boolean condition= true;
   
-  
-  
   public TatocMain(WebDriver driver)
   {
-	   System.setProperty("webdriver.chrome.driver","C:\\Users\\krk55\\Desktop\\chrome\\chromedriver.exe");
-	   this.driver= driver;
+	  this.driver= driver;
   }
   public void checkColorBox(){
     driver.findElement(By.className("greenbox")).click();
